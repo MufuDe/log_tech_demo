@@ -10,7 +10,16 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>log_tech_jul</module>
+        <module>log_tech_log4j</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
